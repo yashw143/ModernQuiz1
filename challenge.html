@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QUIZ</title>
+    <link rel="stylesheet" href="/challengestyle.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="main-container">    
+        <div class="content">
+            <h1 id="question"></h1>
+        </div>
+        <div class="subjects">
+         <div class="image"  id="selectOption1" onclick="getOption(this)">
+             <img src="/images/letter-a.png" alt=""> <h1 id="option-1"></h1>
+         </div>
+             <div class="image" id="selectOption2" onclick="getOption(this)">
+                 <img src="/images/beta.png" alt=""> <h1 id="option-2"></h1>
+             </div>
+             <div class="image" id="selectOption3" onclick="getOption(this)">
+                 <img src="/images/letter-c.png" alt="" > <h1 id="option-3"></h1> 
+             </div>
+             <div class="image" id="selectOption4" onclick="getOption(this)">
+                 <img src="/images/letter-d.png" alt="" ><h1 id="option-4"></h1>
+            </div>
+            <div>
+                <button id="submitBtn" class="btn1"><b> Submit Answer</b></button>  
+                <!-- <button id="submitBtn" class="btn1"><b>Submit Answer</b></button> -->
+            </div>
+      </div>
+     </div>
+     <!-- <h1 id="score">Score:0</h1> -->
+     <div class="buttons">
+        <!-- <button id="pbtn" class="prev-btn">Previous</button> -->
+        <!-- <button id="nbtn" class="next-btn">Next</button> -->
+    </div>    
+    <script src="/script.js"></script>
+</body>
+</html>

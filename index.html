@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QUIZ</title>
+    <!-- CSS only -->
+    <link rel="stylesheet" href="/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<linalert('msg');('msg');="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Figtree&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,200;1,400&family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="toggle">
+        <input type="checkbox" id="toggle-btn">
+        <label for="toggle-btn"></label>
+    </div>
+    <div class="main-container">
+       <div class="content">
+           <h1>Welcome to the <BR> FORNTEND QUIZ</h1>
+            <p>Pick a subject to get started</p>
+       </div>
+       <div class="subjects">
+        <div class="image" id="subject1" onclick="getsubject(this)">
+            <img src="/images/code_4997543.png" alt=""><h1>HTML</h1>
+        </div>
+            <div class="image"  id="subject2" onclick="getsubject(this)">
+                <img src="/images/css-file.png" alt=""> <h1>CSS</h1>
+            </div>
+            <div class="image" id="subject3" onclick="getsubject(this)">
+                <img src="/images/java-script.png" alt="" > <h1>JavaScript</h1> 
+            </div>
+            <div class="image" id="subject4" onclick="getsubject(this)">
+                <img src="/images/ownership.png" alt="" ><h1>Accessibility</h1>
+            </div>
+     </div>
+    </div>
+    <div id="confirmationDiv" class="confirmation-message"></div>
+    <script  src="/script.js"></script>
+
+</body>
+</html>

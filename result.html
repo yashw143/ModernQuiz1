@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QUIZ</title>
+    <link rel="stylesheet" href="/challengestyle.css">
+</head>
+<body>
+    <h1 id="heading">HTML Quiz</h1>
+    <div class="display-score">
+        <div class="display-result" id="disresult">
+            <h2 id="scoreDisplay">Wait..</h2>
+        </div>
+         <h1 id="expression"></h1>
+    </div>
+    <script src="/script.js"></script>
+    <script>
+        setTimeout(() => {
+            const urlParams = new URLSearchParams(window.location.search);
+            const score = urlParams.get('Score');
+            document.getElementById("scoreDisplay").textContent =score+"/10";
+            let expression1 = document.getElementById("expression")
+            if (score>=8){
+                expression1.textContent = "Excellent!.. 🫡"
+            }else if(score>5 && score<8){
+                expression1.textContent = "Good Job 👍"
+            }else{
+                expression1.textContent = "Keep Trying 😔"
+            }
+        }, 1000)
+    </script>
+</body>
+</html>

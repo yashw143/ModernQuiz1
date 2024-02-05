@@ -1,0 +1,186 @@
+{
+   "Subjects":{
+		"HTML":[{
+      				"id": 1,
+      				"question": "Which HTML tag is used for creating a table?",
+      				"options": ["a) <table>", "b) <tr>", "c) <td>", "d) <th>"],
+      				"correct_answer": "a) <table>"
+    			},
+    {
+      "id": 2,
+      "question": "What does the HTML acronym CSS stand for?",
+      "options": ["a) Counter Strike: Source", "b) Cascading Style Sheet", "c) Computer Science Society", "d) Centralized Security System"],
+      "correct_answer": "b) Cascading Style Sheet"
+    },
+    {
+      "id": 3,
+      "question": "Which tag is used for creating an unordered list?",
+      "options": ["a) <ol>", "b) <li>", "c) <ul>", "d) <dl>"],
+      "correct_answer": "c) <ul>"
+    },
+    {
+      "id": 4,
+      "question": "In HTML, which attribute is used to provide additional information about an element?",
+      "options": ["a) id", "b) class", "c) alt", "d) title"],
+      "correct_answer": "d) title"
+    },
+    {
+      "id": 5,
+      "question": "What is the purpose of the HTML <form> element?",
+      "options": ["a) Create tables", "b) Embed videos", "c) Define a form for user input", "d) Style text"],
+      "correct_answer": "c) Define a form for user input"
+    },
+    {
+      "id": 6,
+      "question": "Which HTML tag is used for creating a hyperlink that links to an email address?",
+      "options": ["a) <link>", "b) <mail>", "c) <email>", "d) <a>"],
+      "correct_answer": "d) <a>"
+    },
+    {
+      "id": 7,
+      "question": "What is the purpose of the HTML <head> element?",
+      "options": ["a) Define a header", "b) Contain meta-information about the document", "c) Style text", "d) Create navigation"],
+      "correct_answer": "b) Contain meta-information about the document"
+    },
+    {
+      "id": 8,
+      "question": "Which attribute is used to specify the source URL of an external script in HTML?",
+      "options": ["a) script", "b) src", "c) link", "d) href"],
+      "correct_answer": "b) src"
+    },
+    {
+      "id": 9,
+      "question": "What does the HTML <hr> tag represent?",
+      "options": ["a) Header", "b) Hyperlink", "c) Horizontal rule", "d) Highlighted text"],
+      "correct_answer": "c) Horizontal rule"
+    },
+    {
+      "id": 10,
+      "question": "Which tag is used to define a line break in HTML?",
+      "options": ["a) <nl>", "b) <br>", "c) <lb>", "d) <linebreak>"],
+      "correct_answer": "b) <br>"
+    }],
+		"CSS":[{
+      "id": 1,
+      "question": "Which property is used to change the text color in CSS?",
+      "options": ["a) text-color", "b) color", "c) font-color", "d) text-style"],
+      "correct_answer": "b) color"
+    },
+    {
+      "id": 2,
+      "question": "What does CSS stand for?",
+      "options": ["a) Counter Strike: Source", "b) Computer Style Sheets", "c) Cascading Style Sheet", "d) Centralized Style System"],
+      "correct_answer": "c) Cascading Style Sheet"
+    },
+    {
+      "id": 3,
+      "question": "Which CSS property is used for controlling the space between elements?",
+      "options": ["a) margin", "b) padding", "c) spacing", "d) border"],
+      "correct_answer": "a) margin"
+    },
+    {
+      "id": 4,
+      "question": "What is the purpose of the CSS property 'float'?",
+      "options": ["a) Create rounded corners", "b) Align text to the center", "c) Float an element to the left or right", "d) Increase font size"],
+      "correct_answer": "c) Float an element to the left or right"
+    },
+    {
+      "id": 5,
+      "question": "In CSS, how do you select an element with the class name 'example'?",
+      "options": ["a) #example", "b) .example", "c) element.example", "d) example"],
+      "correct_answer": "b) .example"
+    },
+    {
+      "id": 6,
+      "question": "What is the purpose of the 'z-index' property in CSS?",
+      "options": ["a) Set the font size", "b) Control the order of stacked elements", "c) Define the background color", "d) Adjust the letter spacing"],
+      "correct_answer": "b) Control the order of stacked elements"
+    },
+    {
+      "id": 7,
+      "question": "Which CSS property is used for changing the font of an element?",
+      "options": ["a) font-family", "b) text-font", "c) typeface", "d) font-style"],
+      "correct_answer": "a) font-family"
+    },
+    {
+      "id": 8,
+      "question": "How can you center an element horizontally in CSS?",
+      "options": ["a) text-align: center", "b) margin: auto", "c) align: center", "d) center: horizontal"],
+      "correct_answer": "b) margin: auto"
+    },
+    {
+      "id": 9,
+      "question": "Which CSS property is used for adding shadows to text?",
+      "options": ["a) text-shadow", "b) shadow-text", "c) font-shadow", "d) text-effect"],
+      "correct_answer": "a) text-shadow"
+    },
+    {
+      "id": 10,
+      "question": "What is the purpose of the CSS property 'opacity'?",
+      "options": ["a) Control the element's transparency", "b) Set the element's width", "c) Change the font color", "d) Adjust the letter spacing"],
+      "correct_answer": "a) Control the element's transparency"
+    }], 
+	"JavaScript":[
+		{
+      "id": 1,
+      "question": "What does the acronym DOM stand for in JavaScript?",
+      "options": ["a) Document Object Model", "b) Data Object Model", "c) Digital Ordinance Model", "d) Document Order Model"],
+      "correct_answer": "a) Document Object Model"
+    },
+    {
+      "id": 2,
+      "question": "How do you declare a variable in JavaScript?",
+      "options": ["a) v variableName;", "b) var variableName;", "c) variable variableName;", "d) let variableName;"],
+      "correct_answer": "b) var variableName;"
+    },
+    {
+      "id": 3,
+      "question": "What is the purpose of the JavaScript function 'parseInt()'?",
+      "options": ["a) Parse a string as an integer", "b) Parse a string as a float", "c) Parse a string as a boolean", "d) Parse a string as a date"],
+      "correct_answer": "a) Parse a string as an integer"
+    },
+    {
+      "id": 4,
+      "question": "What does the '=== operator' do in JavaScript?",
+      "options": ["a) Equality (value and type)", "b) Equality (value only)", "c) Inequality (value and type)", "d) Inequality (value only)"],
+      "correct_answer": "a) Equality (value and type)"
+    },
+    {
+      "id": 5,
+      "question": "Which event is triggered when a user clicks on an HTML element in JavaScript?",
+      "options": ["a) onhover", "b) onsubmit", "c) onclick", "d) onkeydown"],
+      "correct_answer": "c) onclick"
+    },
+    {
+      "id": 6,
+      "question": "What is the purpose of the 'typeof' operator in JavaScript?",
+      "options": ["a) Check the type of a variable", "b) Create a new variable", "c) Concatenate strings", "d) Multiply numbers"],
+      "correct_answer": "a) Check the type of a variable"
+    },
+    {
+      "id": 7,
+      "question": "How do you write a comment in JavaScript?",
+      "options": ["a) //This is a comment", "b) <!--This is a comment-->", "c) 'This is a comment", "d) /*This is a comment*/"],
+      "correct_answer": "a) //This is a comment"
+    },
+    {
+      "id": 8,
+      "question": "Which built-in method is used to join elements of an array into a string in JavaScript?",
+      "options": ["a) concat()", "b) join()", "c) merge()", "d) toString()"],
+      "correct_answer": "b) join()"
+    },
+    {
+      "id": 9,
+      "question": "What is the purpose of the 'setTimeout' function in JavaScript?",
+      "options": ["a) Pause the execution of code", "b) Set an interval for code execution", "c) Execute code after a delay", "d) Stop code execution"],
+      "correct_answer": "c) Execute code after a delay"
+    },
+    {
+      "id": 10,
+      "question": "In JavaScript, what does the term 'closure' refer to?",
+      "options": ["a) A way to close a webpage", "b) A function with access to its own scope", "c) A design pattern", "d) A built-in object"],
+      "correct_answer": "b) A function with access to its own scope"
+    }
+	]
+   }
+}

@@ -1,0 +1,137 @@
+body{
+    background: #385170;
+}
+
+h1{
+    color: white;
+        font-family: 'Figtree', sans-serif;
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Roboto', sans-serif;
+}
+
+p{
+    color: gray !important;
+    font-size: 40px;
+    font-family: 'Figtree', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.image img{
+    width: 70px;
+    height: 55px;
+    margin-top: 14px;
+    margin-left: 10px;
+    cursor: pointer
+}
+.subjects{
+    cursor: pointer;
+}
+.image {
+    display: flex;
+    border-radius: 10px;
+    background-color: #6767d7;
+    width: 500px;
+    margin-top: 30px;
+    height: 80px;
+    transform: translate(0%,50%);
+    cursor: pointer;
+}
+
+.content h1{
+    color:  linear-gradient(to right, #999999 60%, #ffffff 40%);
+    color: white;
+    font-family: 'Figtree', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.image h1{
+    margin-left: 40px;
+}
+
+.main-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: -40px;
+}
+
+.main-container .subjects{
+    margin-right: 40px;
+}
+
+.content {
+    font-size: 40px;
+    border-radius: 8px;
+}
+
+.image {
+    box-shadow: 5px 5px lightgray; ;
+}
+
+/* @media  only screen and (max-width:768px){
+    .main-container {
+        display: block;
+    }
+} */
+
+div input{
+    display: none;
+}
+
+#toggle{
+    transform: translateX(83%);
+    margin-top: 50px;
+}
+
+div label {
+    position: relative;
+    display: block;
+    width: 90px;
+    height:50px;    
+    background: #888;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background 300ms linear;
+}
+div label:before{ 
+    position:absolute;
+    top:50%;
+    transform: translateY(-50%);
+    left:2px;
+    content:"";
+    display: block;
+    width: 40px;
+    height:45px;
+    background: #eee;
+    border-radius: 50%;
+    transition: left 300ms linear;
+}
+
+div input:checked +label{
+    background: skyblue;
+}
+
+div input:checked +label:before{
+    left: 50px;
+}
+
+
+@media  only screen and (max-width:1000px){
+    .main-container {
+        display: block;
+        transform: translate(10%);
+        
+    }
+    .content h1,p{
+        font-size: 30px;
+    }
+    p{
+        font-size: 25px;
+    }
+    #toggle{
+        transform: translateX(85%);
+        margin-top: 50px;
+    }
+}
+
